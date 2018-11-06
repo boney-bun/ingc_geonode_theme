@@ -2,119 +2,22 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-11 22:01-0500\n"
+"POT-Creation-Date: 2018-11-05 21:35-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: boney bun <boney@kartoza.com>, 2018\n"
-"Language-Team: Portuguese (https://www.transifex.com/inasafe/teams/92273/pt/)\n"
+"Language-Team: Portuguese (https://www.transifex.com/inasafe/teams/92273/"
+"pt/)\n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:62
-msgid "List of Analysis"
-msgstr "Lista de análise"
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:68
-msgid "All"
-msgstr "Todos"
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:73
-msgid "Anonymous"
-msgstr "Anônimo"
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:75
-msgid "Current users"
-msgstr "Usuários atuais"
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:82
-msgid "User"
-msgstr "Usuário"
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:83
-msgid "Date Created"
-msgstr "Data Criada"
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:88
-msgid "Impact Function Name"
-msgstr "Nome da Função de Impacto"
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:89
-msgid "Result"
-msgstr "Resultado"
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:90
-msgid "View"
-msgstr "Visão"
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:92
-msgid "Save"
-msgstr "Guardar"
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:94
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:187
-msgid "Download"
-msgstr "Baixar"
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:107
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:189
-msgid "Result not yet created"
-msgstr "Resultado ainda não criado"
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:127
-msgid "Analysis not yet running"
-msgstr "Análise ainda não está em execução"
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:129
-msgid "Duration:"
-msgstr "Duração:"
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:131
-msgid "Task Status:"
-msgstr "Status da Tarefa:"
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:132
-msgid "Start Time:"
-msgstr "Hora de início:"
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:138
-msgid "Rerun Analysis"
-msgstr "Execute novamente a análise"
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:146
-msgid "Cancel Analysis"
-msgstr "Cancelar análise"
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:154
-msgid "Analysis Page"
-msgstr "Página de análise"
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:158
-msgid "Map Report"
-msgstr "Relatório de Mapa"
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:163
-msgid "Table Report"
-msgstr "Relatório de tabela"
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:177
-msgid "PROCESSING"
-msgstr "EM PROCESSAMENTO"
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:197
-msgid "No analysis yet."
-msgstr "Nenhuma análise ainda."
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:197
-msgid "Why not create one?"
-msgstr "Por que não criar um?"
 
 #: ingc_geonode_theme/templates/index.html:6
 #: ingc_geonode_theme/templates/site_index.html:6
@@ -122,15 +25,21 @@ msgid "Welcome!"
 msgstr "Bem-vindo!"
 
 #: ingc_geonode_theme/templates/index.html:15
-msgid "Realistic Natural Hazard Impact analysis -"
+#, fuzzy
+#| msgid "Realistic Natural Hazard Impact analysis -"
+msgid "Realistic Natural Hazard Impact Analysis -"
 msgstr "Análise de Impacto de Risco Natural Realista -"
 
 #: ingc_geonode_theme/templates/index.html:16
-msgid "InaSAFE made easy."
+#, fuzzy
+#| msgid "InaSAFE made easy."
+msgid "InaSAFE Made Easy."
 msgstr "InaSAFE facilitado."
 
 #: ingc_geonode_theme/templates/index.html:37
-msgid "What is it all about?"
+#, fuzzy
+#| msgid "What is it all about?"
+msgid "What Is It All About?"
 msgstr "Sobre o que é tudo isso?"
 
 #: ingc_geonode_theme/templates/index.html:41
@@ -146,10 +55,10 @@ msgid ""
 "government disaster risk management through the Open Data for Resilience "
 "Initiative to provide technical assistance to INGC"
 msgstr ""
-"Esta plataforma faz parte de uma iniciativa em que o Governo de Moçambique e"
-" o Banco Mundial procuram promover o uso de dados abertos geo-espaciais para"
-" a gestão do risco de desastres, onde entre as várias atividades visa o "
-"apoio e fortalecimento técnico ao INGC"
+"Esta plataforma faz parte de uma iniciativa em que o Governo de Moçambique e "
+"o Banco Mundial procuram promover o uso de dados abertos geo-espaciais para "
+"a gestão do risco de desastres, onde entre as várias atividades visa o apoio "
+"e fortalecimento técnico ao INGC"
 
 #: ingc_geonode_theme/templates/index.html:49
 msgid ""
@@ -166,8 +75,8 @@ msgid ""
 "The aim is to improve the capacity to respond to disasters and to build the "
 "resilience of key public infrastructure in hazard-prone areas."
 msgstr ""
-"Melhorando assim a sua capacidade de resposta e criação de maior resiliência"
-" nas infra-estruturas públicas em áreas propensas a riscos."
+"Melhorando assim a sua capacidade de resposta e criação de maior resiliência "
+"nas infra-estruturas públicas em áreas propensas a riscos."
 
 #: ingc_geonode_theme/templates/index.html:72
 msgid "Perform Analysis"
@@ -175,8 +84,7 @@ msgstr "Realize análise"
 
 #: ingc_geonode_theme/templates/index.html:74
 msgid ""
-"Perform an InaSAFE analysis using hazard and exposure data hosted on "
-"GeoNode."
+"Perform an InaSAFE analysis using hazard and exposure data hosted on GeoNode."
 msgstr ""
 "Realize uma análise InaSAFE usando dados de risco e exposição hospedados no "
 "GeoNode."
@@ -186,8 +94,8 @@ msgid ""
 "Visualize the InaSAFE analysis results as a map and infographic, and as "
 "downloadable PDF reports."
 msgstr ""
-"Visualize os resultados da análise InaSAFE como um mapa e infográfico e como"
-" relatórios em PDF para baixar."
+"Visualize os resultados da análise InaSAFE como um mapa e infográfico e como "
+"relatórios em PDF para baixar."
 
 #: ingc_geonode_theme/templates/index.html:79
 #: ingc_geonode_theme/templates/site_base.html:75
@@ -214,8 +122,16 @@ msgstr ""
 "Pesquise conjuntos de dados em outros armazenamentos de dados geoespaciais "
 "conectados que publicam seus catálogos usando o padrão CSW."
 
+#: ingc_geonode_theme/templates/index.html:93
+#, fuzzy
+#| msgid "What is it all about?"
+msgid "What It Can Do?"
+msgstr "Sobre o que é tudo isso?"
+
 #: ingc_geonode_theme/templates/index.html:113
-msgid "How to run an Analysis?"
+#, fuzzy
+#| msgid "How to run an Analysis?"
+msgid "How To Run An Analysis?"
 msgstr "Como executar uma análise?"
 
 #: ingc_geonode_theme/templates/index.html:122
@@ -381,3 +297,75 @@ msgstr "vou a "
 #: ingc_geonode_theme/templates/site_base.html:210
 msgid "repository."
 msgstr "repositório."
+
+#~ msgid "List of Analysis"
+#~ msgstr "Lista de análise"
+
+#~ msgid "All"
+#~ msgstr "Todos"
+
+#~ msgid "Anonymous"
+#~ msgstr "Anônimo"
+
+#~ msgid "Current users"
+#~ msgstr "Usuários atuais"
+
+#~ msgid "User"
+#~ msgstr "Usuário"
+
+#~ msgid "Date Created"
+#~ msgstr "Data Criada"
+
+#~ msgid "Impact Function Name"
+#~ msgstr "Nome da Função de Impacto"
+
+#~ msgid "Result"
+#~ msgstr "Resultado"
+
+#~ msgid "View"
+#~ msgstr "Visão"
+
+#~ msgid "Save"
+#~ msgstr "Guardar"
+
+#~ msgid "Download"
+#~ msgstr "Baixar"
+
+#~ msgid "Result not yet created"
+#~ msgstr "Resultado ainda não criado"
+
+#~ msgid "Analysis not yet running"
+#~ msgstr "Análise ainda não está em execução"
+
+#~ msgid "Duration:"
+#~ msgstr "Duração:"
+
+#~ msgid "Task Status:"
+#~ msgstr "Status da Tarefa:"
+
+#~ msgid "Start Time:"
+#~ msgstr "Hora de início:"
+
+#~ msgid "Rerun Analysis"
+#~ msgstr "Execute novamente a análise"
+
+#~ msgid "Cancel Analysis"
+#~ msgstr "Cancelar análise"
+
+#~ msgid "Analysis Page"
+#~ msgstr "Página de análise"
+
+#~ msgid "Map Report"
+#~ msgstr "Relatório de Mapa"
+
+#~ msgid "Table Report"
+#~ msgstr "Relatório de tabela"
+
+#~ msgid "PROCESSING"
+#~ msgstr "EM PROCESSAMENTO"
+
+#~ msgid "No analysis yet."
+#~ msgstr "Nenhuma análise ainda."
+
+#~ msgid "Why not create one?"
+#~ msgstr "Por que não criar um?"

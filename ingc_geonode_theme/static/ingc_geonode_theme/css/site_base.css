@@ -12,6 +12,7 @@ html {
 }
 body {
   margin: 0;
+  text-align: justify;
 }
 article,
 aside,
@@ -1073,7 +1074,7 @@ html {
 }
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 16px;
+  font-size: 1.5em;
   line-height: 1.42857143;
   color: #333333;
   background-color: white !important;
@@ -4944,8 +4945,8 @@ a.badge:focus {
 }
 .jumbotron p {
   margin-bottom: 1em;
-  font-size: 24px;
-  font-weight: 200;
+  font-size: 1.5em;
+  font-weight: normal;
 }
 .jumbotron > hr {
   border-top-color: #204d74;
@@ -6923,7 +6924,7 @@ article.tab-pane {
   background: #2aa858;
   color: white;
   margin-bottom: 0;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  text-shadow: none;
   padding: 0 0 3.75em !important;
 }
 .home .jumbotron a {
@@ -6971,7 +6972,6 @@ article.tab-pane {
   border: 1px solid #333333;
   border-radius: 5px;
   outline-width: 0;
-  font-size: 1.1em;
 }
 .home .big-search .search input {
   text-indent: 64px;

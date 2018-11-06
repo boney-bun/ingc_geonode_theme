@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-12 04:27-0500\n"
+"POT-Creation-Date: 2018-11-05 21:35-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,119 +17,21 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:62
-msgid "List of Analysis"
-msgstr ""
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:68
-msgid "All"
-msgstr ""
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:73
-msgid "Anonymous"
-msgstr ""
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:75
-msgid "Current users"
-msgstr ""
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:82
-msgid "User"
-msgstr ""
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:83
-msgid "Date Created"
-msgstr ""
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:88
-msgid "Impact Function Name"
-msgstr ""
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:89
-msgid "Result"
-msgstr ""
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:90
-msgid "View"
-msgstr ""
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:92
-msgid "Save"
-msgstr ""
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:94
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:187
-msgid "Download"
-msgstr ""
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:107
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:189
-msgid "Result not yet created"
-msgstr ""
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:127
-msgid "Analysis not yet running"
-msgstr ""
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:129
-msgid "Duration:"
-msgstr ""
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:131
-msgid "Task Status:"
-msgstr ""
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:132
-msgid "Start Time:"
-msgstr ""
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:138
-msgid "Rerun Analysis"
-msgstr ""
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:146
-msgid "Cancel Analysis"
-msgstr ""
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:154
-msgid "Analysis Page"
-msgstr ""
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:158
-msgid "Map Report"
-msgstr ""
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:163
-msgid "Table Report"
-msgstr ""
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:177
-msgid "PROCESSING"
-msgstr ""
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:197
-msgid "No analysis yet."
-msgstr ""
-
-#: ingc_geonode_theme/templates/geosafe/analysis/list.html:197
-msgid "Why not create one?"
-msgstr ""
-
 #: ingc_geonode_theme/templates/index.html:6
 #: ingc_geonode_theme/templates/site_index.html:6
 msgid "Welcome!"
 msgstr ""
 
 #: ingc_geonode_theme/templates/index.html:15
-msgid "Realistic Natural Hazard Impact analysis -"
+msgid "Realistic Natural Hazard Impact Analysis -"
 msgstr ""
 
 #: ingc_geonode_theme/templates/index.html:16
-msgid "InaSAFE made easy."
+msgid "InaSAFE Made Easy."
 msgstr ""
 
 #: ingc_geonode_theme/templates/index.html:37
-msgid "What is it all about?"
+msgid "What Is It All About?"
 msgstr ""
 
 #: ingc_geonode_theme/templates/index.html:41
@@ -195,8 +97,12 @@ msgid ""
 "their catalogues using the CSW standard."
 msgstr ""
 
+#: ingc_geonode_theme/templates/index.html:93
+msgid "What It Can Do?"
+msgstr ""
+
 #: ingc_geonode_theme/templates/index.html:113
-msgid "How to run an Analysis?"
+msgid "How To Run An Analysis?"
 msgstr ""
 
 #: ingc_geonode_theme/templates/index.html:122

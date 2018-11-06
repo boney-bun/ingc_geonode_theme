@@ -12,11 +12,11 @@
   <div class="row white tagline">
       <div class="container">
         <div class="big-search">
-            <h2 style="text-align: center">{% trans "Realistic Natural Hazard Impact analysis -" %}</h2>
-            <h2 style="text-align: center">{% trans "InaSAFE made easy." %}</h2>
+            <h2 style="text-align: center">{% trans "Realistic Natural Hazard Impact Analysis -" %}</h2>
+            <h2 style="text-align: center">{% trans "InaSAFE Made Easy." %}</h2>
             <div class="search">
                     <form id="search" action="{% url "search" %}" >
-                        <span class="fa fa-search"></span>
+                        <span class="fa fa-search fa-2x"></span>
                         {% if HAYSTACK_SEARCH %}
                         <input id="search_input" type="text" placeholder="Search Data" class="form-control" name="q">
                         {% else %}
@@ -34,7 +34,7 @@
         <table>
             <tr>
                 <td>
-                    <h1>{% trans "What is it all about?" %}</h1>
+                    <h1 style="text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);">{% trans "What Is It All About?" %}</h1>
                 </td>
                 <td>
                     <a style="font-size: 32px;font-weight: 900;" class="btn btn-warning btn-lg pull-right font-white" href="{% url "geosafe:analysis-create" %}">
@@ -44,7 +44,7 @@
             </tr>
             <tr>
                 <td colspan="2">
-                    <p style="font-size: 1.5em;">
+                    <p>
                         {% trans "This platform is part of an initiative where the Government of Mozambique and the World Bank have been promoting the use of open geospatial data for government disaster risk management through the Open Data for Resilience Initiative to provide technical assistance to INGC" %}
                         {% trans "(National Disaster Management Institute) for the management and use of geospatial data to fulfil their core mandate and activities, particularly regarding contingency planning and emergency response." %}
                         {% trans "The aim is to improve the capacity to respond to disasters and to build the resilience of key public infrastructure in hazard-prone areas." %}
@@ -64,7 +64,7 @@
     <div class="container">
       <!-- div class="row" -->
         <div class="green-triangle"></div>
-              <table style="margin: 25px 0px;">
+              <table class="what-can-do">
                   <tr>
                       <td style="vertical-align: top;">
                           <ol style="margin: 5px 50px;">
@@ -90,7 +90,7 @@
                           </ol>
                       </td>
                       <td>
-                                  <h1 class="font-green">What it can do?</h1>
+                                  <h1 class="font-green" style="text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);">{% trans "What It Can Do?" %}</h1>
                           <div id='mySwipeWhat' class="swipe-what">
                               <div class='swipe-what-wrap'>
                                   <div><img width="740px" height="503px" src="{% static 'ingc_geonode_theme/img/laptop_it_can_do.png' %}"/></div>
@@ -110,7 +110,7 @@
   <div class="row green font-white safe-section">
     <div class="container">
         <div class="white-triangle"></div>
-        <h1>{% trans "How to run an Analysis?" %}</h1>
+        <h1>{% trans "How To Run An Analysis?" %}</h1>
               <table style="margin: 25px 0px;">
                   <tr>
                       <td>
@@ -239,7 +239,7 @@
     }
 
     .safe-section h1 {
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
         font-size: 56px;
         font-weight: 900;
     }
@@ -302,6 +302,15 @@
         height: 36px;
         margin-left: auto;
         margin-right: auto;
+    }
+    .what-can-do {
+        margin: 25px 0px;
+    }
+    .what-can-do ol, .what-can-do b {
+        font-size: 1.5em;
+    }
+    .what-can-do p {
+        font-size: inherit;
     }
     .white-triangle {
         background: url(../static/ingc_geonode_theme/img/white-triangle.png) no-repeat;
