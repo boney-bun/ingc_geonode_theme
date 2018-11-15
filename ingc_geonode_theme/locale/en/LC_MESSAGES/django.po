@@ -2,20 +2,20 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-14 21:06-0600\n"
+"POT-Creation-Date: 2018-11-14 21:51-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 
 #: ingc_geonode_theme/templates/index.html:6
 #: ingc_geonode_theme/templates/site_index.html:6
@@ -76,11 +76,9 @@ msgstr "Perform Analysis"
 
 #: ingc_geonode_theme/templates/index.html:74
 msgid ""
-"Perform an InaSAFE analysis using hazard and exposure data hosted on "
-"GeoNode."
+"Perform an InaSAFE analysis using hazard and exposure data hosted on GeoNode."
 msgstr ""
-"Perform an InaSAFE analysis using hazard and exposure data hosted on "
-"GeoNode."
+"Perform an InaSAFE analysis using hazard and exposure data hosted on GeoNode."
 
 #: ingc_geonode_theme/templates/index.html:75
 msgid ""
@@ -216,6 +214,7 @@ msgid "Remote Services"
 msgstr "Remote Services"
 
 #: ingc_geonode_theme/templates/site_base.html:56
+#: ingc_geonode_theme/templates/site_base.html:169
 msgid "Upload Layer"
 msgstr "Upload Layer"
 
@@ -225,6 +224,7 @@ msgid "Create Layer"
 msgstr "Create Layer"
 
 #: ingc_geonode_theme/templates/site_base.html:60
+#: ingc_geonode_theme/templates/site_base.html:173
 msgid "Upload Document"
 msgstr "Upload Document"
 
